@@ -20,11 +20,29 @@ class About extends Component {
                         <tbody>
                             <tr>
                                 <th>Name</th>
-                                <td>umechan</td>
+                                <td>Keisuke Umezawa</td>
                             </tr>
                             <tr>
                                 <th>Birthday</th>
                                 <td>1989/07/10</td>
+                            </tr>
+                            <tr>
+                                <th>Blog (en)</th>
+                                <td>
+                                    <a href="https://medium.com/@keisukeumezawa">Medium</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Blog (ja)</th>
+                                <td>
+                                    <a href="https://kumechann.hatenablog.com/">Hatena Blog</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Resume</th>
+                                <td>
+                                    <a href="https://github.com/keisuke-umezawa/pandoc_resume/blob/master/resume.md">Pandoc</a>
+                                </td>
                             </tr>
                             <tr className="about-page__icons">
                                 <td>
