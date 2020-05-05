@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b staging"
+    "deploy": "gh-pages -d build -b master"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,5 +46,5 @@
     "@types/react-router-dom": "^5.1.5",
     "gh-pages": "^2.2.0"
   },
-  "homepage": "http://keisuke-umezawa.github.io/MyPortfolio"
+  "homepage": "http://keisuke-umezawa.github.io"
 }
