@@ -6,6 +6,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import SideDrawer from './components/SideDrawer';
 import About from './pages/About'
+import Home from './pages/Home'
+
 
 interface ISideDrawerState {
   isOpen: boolean;
@@ -31,6 +33,8 @@ class App extends Component<{}, ISideDrawerState> {
           <SideDrawer show={this.state.isOpen} drawToggleClickHandler={this.drawToggleClickHandler} />
           <Switch>
             <Route path="/about" component={About} />
+            <Route path="/" component={Home} />
+            <Route component={Home} />
           </Switch>
         </div>
       </Router>

@@ -44,7 +44,8 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.5",
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "react-helmet": "^6.0.0"
   },
   "homepage": "http://keisuke-umezawa.github.io"
 }
