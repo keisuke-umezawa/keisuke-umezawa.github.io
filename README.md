@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## web page
+https://keisuke-umezawa.github.io/
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,8 +40,10 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## deploy to github.io
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm run deploy
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+c.f. https://qiita.com/roottool/items/89b4adcea8314e5f8e17
