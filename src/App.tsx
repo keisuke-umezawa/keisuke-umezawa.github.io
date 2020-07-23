@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './App.css';
 
+import Backdrop from './components/Backdrop';
 import Navbar from './components/Navbar';
 import SideDrawer from './components/SideDrawer';
 import About from './pages/About'
@@ -26,11 +27,18 @@ class App extends Component<{}, ISideDrawerState> {
   }
 
   public render() {
+    let backDrop;
+
+    if (this.state.isOpen) {
+        backDrop = <Backdrop backdropClickHandler={this.backdropClickHandler} />;
+    }
+
     return (
       <Router>
         <div className="App">
           <Navbar drawToggleClickHandler={this.drawToggleClickHandler} />
           <SideDrawer show={this.state.isOpen} drawToggleClickHandler={this.drawToggleClickHandler} />
+          {backDrop}
           <Switch>
             <Route path="/about" component={About} />
             <Route path="/" component={Home} />
