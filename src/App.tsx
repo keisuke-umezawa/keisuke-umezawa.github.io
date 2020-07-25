@@ -7,6 +7,7 @@ import Backdrop from './components/Backdrop';
 import Navbar from './components/Navbar';
 import SideDrawer from './components/SideDrawer';
 import About from './pages/About'
+import Blog from './pages/Blog'
 import Home from './pages/Home'
 
 
@@ -41,6 +42,7 @@ class App extends Component<{}, ISideDrawerState> {
           {backDrop}
           <Switch>
             <Route path="/about" component={About} />
+            <Route path="/blog" component={Blog} />
             <Route path="/" component={Home} />
             <Route component={Home} />
           </Switch>

@@ -27,6 +27,9 @@ class SideDrawer extends Component<IProps> {
                     <Link to="/about">
                         <li onClick={this.clickHandler}>About</li>
                     </Link>
+                    <Link to="/blog">
+                        <li onClick={this.clickHandler}>Blog</li>
+                    </Link>
                 </ul>
             </nav>
         );
