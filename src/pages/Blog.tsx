@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Card from "@material-ui/core/Card";
+import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
@@ -24,15 +25,12 @@ const styleSettings = (theme: Theme) =>
             padding: "0 16px"
         },
         card: {
-            height: "300px",
+            height: "150px",
             marginBottom: "30px"
         }
     });
 
 class Blog extends Component<WithStyles<typeof styleSettings>, {}> {
-    constructor(props: WithStyles<typeof styleSettings>) {
-        super(props);
-    }
 
     public render() {
         const { classes } = this.props;
@@ -51,14 +49,13 @@ class Blog extends Component<WithStyles<typeof styleSettings>, {}> {
                             className={classes.cardGrid}
                         >
                             <Card className={classes.card}>
-                                <CardContent>
-                                    <Typography variant="h6" gutterBottom>
-                                        {item.title}
-                                    </Typography>
-                                    <Typography variant="subtitle1">
-                                        {item.text}
-                                    </Typography>
-                                </CardContent>
+                                <CardActionArea href={item.url}>
+                                    <CardContent>
+                                        <Typography variant="h6" gutterBottom>
+                                            {item.title}
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
                             </Card>
                         </Grid>
                     ))}
