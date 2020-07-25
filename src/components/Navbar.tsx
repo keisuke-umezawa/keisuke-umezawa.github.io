@@ -34,6 +34,9 @@ class Navbar extends Component<IProps> {
                             <Link to="/about">
                                 <li>About</li>
                             </Link>
+                            <Link to="/blog">
+                                <li>Blog</li>
+                            </Link>
                         </ul>
                     </div>
                 </nav>

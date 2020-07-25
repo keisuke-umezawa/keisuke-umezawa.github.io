@@ -1,0 +1,9 @@
+[{
+        "title": "HTML & CSS",
+        "text": "フロントエンドの制作で使用しています。OrgaSoundではBootstrap4を使用していました。業務ではMaterial Design Liteを使用していました。"
+    },
+    {
+        "title": "Objective-C",
+        "text": "業務でネイティブ向けライブラリをUnityで制作されたスマートフォンアプリに組み込むため、プラグインの作成を行っていました。"
+    }
+]
