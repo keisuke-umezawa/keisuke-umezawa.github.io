@@ -47,14 +47,14 @@ class About extends Component {
                             <tr className="about-page__icons">
                                 <td>
                                     <a href="https://github.com/keisuke-umezawa">
-                                <IconContext.Provider value={{ size: "3em" }}>
+                                <IconContext.Provider value={{ size: "3em", color: "#000" }}>
                                     <GoMarkGithub />
                                 </IconContext.Provider>
                                     </a>
                                 </td>
                                 <td>
                                     <a href="https://twitter.com/kumezawa_">
-                                <IconContext.Provider value={{ size: "3em" }}>
+                                <IconContext.Provider value={{ size: "3em", color: "#55acee" }}>
                                     <FaTwitterSquare />
                                 </IconContext.Provider>
                                     </a>

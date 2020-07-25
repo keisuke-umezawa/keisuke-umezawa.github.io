@@ -28,7 +28,7 @@ class Navbar extends Component<IProps> {
                     <div>
                         <Link to="/" className="navbar__title">umechan's portfolio</Link>
                     </div>
-                    <div className="spacer" style={{ flex: 1}} />
+                    <div className="spacer" style={{ flex: 1 }} />
                     <div className="navbar__navigation-items">
                         <ul>
                             <Link to="/about">
