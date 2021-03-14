@@ -7,7 +7,7 @@ class Home extends Component<{}> {
     public render() {
         return (
             <main className="main">
-                <h1 className="home-page__title">Welcome to umechan's portfolio site!</h1>
+                <h1 className="home-page__title">Welcome to umechan's portfolio site!!!</h1>
             </main>
         );
     }
