@@ -7,10 +7,6 @@ import { GoMarkGithub } from 'react-icons/go';
 import './About.css';
 
 class About extends Component {
-    constructor(props: {}) {
-        super(props);
-    }
-
     public render() {
         return (
             <main className="main">
