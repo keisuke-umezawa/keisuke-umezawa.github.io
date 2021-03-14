@@ -41,7 +41,7 @@ class About extends Component {
                             <tr>
                                 <th>Resume</th>
                                 <td>
-                                    <a href="https://github.com/keisuke-umezawa/pandoc_resume/blob/master/resume.md">Pandoc</a>
+                                    <a href="https://github.com/keisuke-umezawa/pandoc_resume/blob/master/output/resume.pdf">Pandoc</a>
                                 </td>
                             </tr>
                             <tr className="about-page__icons">
